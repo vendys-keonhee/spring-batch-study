@@ -7,6 +7,7 @@ spring:
     password: 1234
   jpa.hibernate.ddl-auto: none
   jpa.show-sql: true
+  jpa.hibernate.naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
   batch:
     job:
